@@ -14,6 +14,8 @@ const errors = computed(() =>
 const loginPage = () => {
   if (username.value === 'admin' && password.value === 'admin') {
     router.push({ name: 'login' })
+  } else {
+    return 'shoma be page nemitavanid vard shavid'
   }
 
 }
