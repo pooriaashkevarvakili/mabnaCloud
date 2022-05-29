@@ -40,7 +40,7 @@ const loginPage = () => {
         </label>
       </div>
       <div class="flex items-center justify-center mt-10  ">
-        <input @click="loginPage" type="submit" value="login"
+        <input @click.prevent="loginPage" type="submit" value="login"
           class="bg-green-400 w-full text-white h-10 cursor-pointer rounded-full" />
       </div>
 
